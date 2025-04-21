@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="https://raw.githubusercontent.com/IonMetadataWorkingGroup/GNSS-Metadata-Standard/master/Specifications/schema/GnssMetadata.xsd">
+    <lane id="RF-1">
+        <system id="System">
+            <freqbase format="Hz">placeholder</freqbase>
+            <types>Undefined</types>
+        </system>
+        <block>
+            <cycles>1</cycles>
+            <chunk>
+                <sizeword>2</sizeword>
+                <countwords>2</countwords>
+                <wordshift>Left</wordshift>
+                <lump>
+                    <stream id="Stream">
+                        <ratefactor>1</ratefactor>
+                        <quantization>16</quantization>
+                        <packedbits>32</packedbits>
+                        <alignment>Undefined</alignment>
+                        <shift>Undefined</shift>
+                        <format>IQ</format>
+                        <encoding>TC</encoding>
+                        <band id="L1">
+                            <centerfreq format="MHz">1575.42</centerfreq>
+                            <translatedfreq format="Hz">0.0</translatedfreq>
+                        </band>
+                    </stream>
+                </lump>
+            </chunk>
+        </block>
+    </lane>
+    <file>
+        <url>placeholder</url>
+        <timestamp>2023-01-03T21:19:42.5Z</timestamp>
+        <lane id="RF-1"/>
+    </file>
+</metadata>
