@@ -50,4 +50,4 @@ generate_iq('../test_data/tv1/scenario.json', '../iq/tv1', 'data', 5.0e6, 1350)
 ```
 
 ## Test Vector Descriptions
-A fairly comprehensive description of test vectors 1-8 is contained in the [2024 CGSIC presentation of this tool](https://www.gps.gov/cgsic/meetings/2024/ohanlon.pdf).  Test vector 9 differs from that in the presentation in that it contains only a single set of "true" signals with no threats present.  This scenario is intended to provide a performance baseline under nominal conditions.
+A fairly comprehensive description of test vectors 1-8 is contained in the [2024 CGSIC presentation of this tool](https://archive.gps.gov/cgsic/meetings/2024/ohanlon.pdf).  Test vector 9 differs from that in the presentation in that it contains only a single set of "true" signals with no threats present.  This scenario is intended to provide a performance baseline under nominal conditions.
